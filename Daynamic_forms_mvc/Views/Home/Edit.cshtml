@@ -1,0 +1,69 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Modal -->
+<div class="modal fade " id="Editpars" role="dialog">
+    <div class="modal-dialog modal-xl">
+
+        <!-- Modal content-->
+    <div class="modal-content">
+            <div class="modal-header">
+                <i style="font-size:24px" class="fa">&#xf00d;</i>
+                <h4 class="modal-title"> Edit Form</h4>
+            </div>
+        <div class="modal-body">
+
+                <form class="input-field">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <div>
+                                <input type="text" class="fid" hidden>  
+                                
+                            </div>
+                            <div>
+                                <label class="form-label">
+                                    Form Subject:
+                                </label>
+                                <input type="text" class="form-control subject" form="form-control" required />
+                            </div>
+                            <div>
+                                <label class="form-label">
+                                    Form Description:
+                                </label>
+                                <input type="text" class="description form-control" required />
+                            </div>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-primary" onclick="addquestion()">Add Questions</button>
+                    </div>
+                    <hr />
+                    <div id="parent">
+                        <div class="questiondiv" id="questiondiv">
+                            <input type="text" class="qid" value="" hidden>
+                           
+                            <div class="mb-3">
+                                <lable>Question:</lable>
+                                <input type="text" class="form-control question" id="question"/>
+                            </div>
+
+                            <div>
+                               
+                                <label class="lable">Question type:</label>
+                                <select class="questiontype form-control">
+                                    <option class="dropdown-item" value="0">Single Line</option>
+                                    <option class="dropdown-item" value="1">True/False</option>
+                                </select>
+                            </div>
+                            <a data-itemId="0" href="#" class="deleteItem">Remove</a>
+                            <hr />
+                        </div>
+                    </div>
+                    <div id="morequestion" class="morequestion"></div>
+                </form>
+            <div class="modal-footer">
+                    <button class="btn btn-primary" onclick="Edit()">Submit</button>
+                    <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>

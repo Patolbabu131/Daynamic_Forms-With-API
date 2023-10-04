@@ -1,0 +1,102 @@
+﻿        
+        <h4>Forms</h4>
+        <hr />
+
+        <form class="input-field"> 
+            <div class="form-horizontal">
+                <div class="form-group">
+                    
+                        <div >
+                        <label class="form-label">
+                                Form Subject:
+                            </label>
+                                <input type="text" id="fsubject"  name="fsubject" class="form-control" required />
+                        </div>
+
+                         <div>
+                        <label class="form-label">
+                         Form Description:
+                            </label>
+                             <input type="text" id="fdescription" name="fdescription" class="form-control" required />
+                        </div>
+                      
+             
+                    </div>
+        <button type="button" class="btn btn-primary" onclick="addquestion()">Add Questions</button>
+             </div>
+        <hr />
+        <div id="parent" >
+             <div class="questiondiv">
+               <div class="mb-3">
+                     <lable >Question:</lable>
+                <input type="text" class="question form-control" value="" />
+            </div>
+
+                <div ><br>
+                    <label class="lable">Question type:</label>
+                    <select  class="questiontype">
+                        <option value="0">Single Line</option>
+                        <option value="1">True/False</option>
+                    </select>
+                </div>
+                <hr/>
+            </div>
+        </div>
+       
+        <div id="morequestion" class="morequestion"></div>
+
+    </form>
+
+<button class="btn btn-primary"  onclick="Create_Form()">submit</button>
+<button type="reset" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*      <h5>Questions</h5>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label>
+                            Questions :
+                        </label>
+                        <input type="text" id="qquestionsv" name="qquestionsv" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <label>
+                            Answer Type:
+                        </label>
+                          <input type="radio"  id="qtype" name="qtype" value="SinglelineQ">
+                          <label for="html">Single Line</label><br>
+                          <input type="radio" id="qtype" name="qtype" value="TrueOrFalseQ">
+                          <label for="css">True/False</label><br>
+                    </div>
+                </div>
+                <hr />
+                <a id="addToList" class="btn btn-primary">Add To List</a>
+            </div>
+        </div>
+
+        <table id="ItemTable" class="table">
+            <thead>
+                <tr>
+                    <th style="width:70%">Questions</th>
+                    <th style="width:20%"> Type</th>
+                    <th style="width:10%"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>*@
