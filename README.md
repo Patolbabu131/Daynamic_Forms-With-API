@@ -1,4 +1,4 @@
-# Daynamic_forms
+
 # Dynamic Forms with API
 The creation form is a versatile tool makes it easy to construct variety of questionnaires or quizzes With a user-friendly interface, this form allows you to effortlessly and customize each question according your specific needs. You can from various question types, as multiple-choice, open-ended or rating scale, to the desired information. Additionally, you have the option to helpful instructions or descriptions for question to guide respondents. This provides a seamless experience for comprehensive questionnaires tailored to your, making data collection and analysis breeze.
 #  Dashboard
